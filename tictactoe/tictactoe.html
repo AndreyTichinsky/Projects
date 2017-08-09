@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+<div class="ticTacToe">
+<div id="score"><span class="score_span"></span>
+<button name="restartButton" id="restartButton" >Try again!</button>
+</div>
+<select id="chooseOpponent">
+<option value="PC">Компьютер</option>
+<option value="P2">Игрок #2</option>
+</select>
+<table id="playGround" border="1" >
+<caption>
+<div>Crosses: <span id="streakCrosses">0</span></div><div>Zeros: <span id="streakZeros">0</span></div>
+</caption>
+	<tr>
+	<td class="cells" id="n00"></td>
+	<td class="cells" id="n01"></td>
+	<td class="cells" id="n02"></td>
+	</tr>
+	<tr>
+	<td class="cells" id="n10"></td>
+	<td class="cells" id="n11"></td>
+	<td class="cells" id="n12"></td>
+	</tr>
+	<tr>
+	<td class="cells" id="n20"></td>
+	<td class="cells" id="n21"></td>
+	<td class="cells" id="n22"></td>
+	</tr>
+</table>
+<script src="scripts/script.js"></script>
+</div>
+</body>
+</html>
