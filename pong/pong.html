@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+
+<body>
+    <div id="field">
+        <div id="menu">
+            <p>F5 - New Game
+                <p>ESC - Pause
+                    <p>SPACE - Start Game / Resume
+                        <p>
+                            <div id="level">
+                                <label for="mode1"><input type="radio" id="mode1" name="modes" class="modes" value="easy" checked> easy<br></label>
+                                <label for="mode2"><input type="radio" id="mode2" name="modes" class="modes" value="normal"> normal<br></label>
+                                <label for="mode3"><input type="radio" id="mode3" name="modes" class="modes" value="hard"> hard<br></label>
+                                <label for="mode4"><input type="radio" id="mode4" name="modes" class="modes" value="impossible"> impossible<br></label>
+                            </div>
+        </div>
+        <div id="finalScore"></div>
+        <div id="pause">PAUSE!</div>
+        <div id="scoreP1">0</div>
+        <div id="scoreP2">0</div>
+        <div class="field_line"></div>
+        <div id="ball"></div>
+        <div class="stick" id="player1"></div>
+        <div class="stick" id="player2"></div>
+    </div>
+    <script src="scripts/script.js"></script>
+    </div>
+</body>
+
+</html>
